@@ -34,7 +34,7 @@ pip install pycocotools-windows
 ```
 
 
-### Unable to detect gpu
+#### Unable to detect gpu
 ![image](https://user-images.githubusercontent.com/49776926/128021513-69448a71-a4b4-40ca-b672-c0bdce659630.png)
 
 - reinstall tensorflow object detection api
@@ -43,6 +43,20 @@ git clone https://github.com/tensorflow/models.git
 copy object_detection\packages\tf2\setup.py .
 python -m pip install .
 ```
+
+#### cannot run convert-to-tflite.py
+https://stackoverflow.com/questions/64662085/fix-not-load-dynamic-library-for-tensorflow-gpu
+have to install gpu variant of tensorflow & ensure gpu is detected
+check devices using (either one of the methods)
+1. 
+```from tensorflow.python.client import device_lib
+print(device_lib.list_local_devices())
+```
+2.
+```
+tf.config.list_physical_devices('GPU')
+```
+
 
 ## Evaluation
 https://www.youtube.com/watch?v=oqXDdxF_Wuw
