@@ -11,5 +11,5 @@ child index pit pf range int(member[4][0].text)
 
 ### Error
 ![image](https://user-images.githubusercontent.com/49776926/127997537-5e8135a9-7056-479f-9688-1eec47284ba1.png)
-pip uninstall h5py
-pip install h5py==2.10.0
+1. pip uninstall h5py
+2. pip install h5py==2.10.0
