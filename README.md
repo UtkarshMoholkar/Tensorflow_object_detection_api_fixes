@@ -19,11 +19,11 @@ https://exerror.com/importerror-cannot-import-name-invalidschemecombination-from
 ![image](https://user-images.githubusercontent.com/49776926/128021513-69448a71-a4b4-40ca-b672-c0bdce659630.png)
 reinstall 
 
-"""
+```
 git clone https://github.com/tensorflow/models.git
 copy object_detection\packages\tf2\setup.py .
 python -m pip install .
-"""
+```
 
 ## Evaluation
 https://www.youtube.com/watch?v=oqXDdxF_Wuw
