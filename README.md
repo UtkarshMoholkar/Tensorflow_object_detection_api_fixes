@@ -27,6 +27,13 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py (or just right click sav
 python get-pip.py pip==19.3.1 
 ```
 
+### pycocotools error
+![image](https://user-images.githubusercontent.com/49776926/128046843-7305aa0b-8ab6-4c81-a56c-804d194ac749.png)
+```
+pip install pycocotools-windows
+```
+
+
 ### Unable to detect gpu
 ![image](https://user-images.githubusercontent.com/49776926/128021513-69448a71-a4b4-40ca-b672-c0bdce659630.png)
 
