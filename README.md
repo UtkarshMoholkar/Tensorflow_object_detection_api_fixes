@@ -12,8 +12,10 @@ child index pit pf range int(member[4][0].text)
 ### Error
 https://exerror.com/importerror-cannot-import-name-invalidschemecombination-from-pip-_internal-exceptions/
 ![image](https://user-images.githubusercontent.com/49776926/127997537-5e8135a9-7056-479f-9688-1eec47284ba1.png)
-1. pip uninstall h5py
-2. pip install h5py==2.10.0
+```
+pip uninstall h5py
+pip install h5py==2.10.0
+```
 
 ### Unable to detect gpu
 ![image](https://user-images.githubusercontent.com/49776926/128021513-69448a71-a4b4-40ca-b672-c0bdce659630.png)
