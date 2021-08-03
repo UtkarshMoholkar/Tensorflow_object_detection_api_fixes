@@ -17,8 +17,8 @@ https://exerror.com/importerror-cannot-import-name-invalidschemecombination-from
 
 ### Unable to detect gpu
 ![image](https://user-images.githubusercontent.com/49776926/128021513-69448a71-a4b4-40ca-b672-c0bdce659630.png)
-reinstall 
 
+- reinstall tensorflow object detection api
 ```
 git clone https://github.com/tensorflow/models.git
 copy object_detection\packages\tf2\setup.py .
