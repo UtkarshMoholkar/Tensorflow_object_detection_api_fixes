@@ -22,6 +22,8 @@ https://exerror.com/importerror-cannot-import-name-invalidschemecombination-from
 ![image](https://user-images.githubusercontent.com/49776926/128026628-83de02dd-3c50-4a43-988d-7375c0a2874f.png)
 
 ```
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py (or just right click save as pip.py)
+# paste get-pip.py into C:\Users\ASUS\anaconda3\Scripts
 python get-pip.py pip==19.3.1 
 ```
 
