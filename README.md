@@ -48,6 +48,7 @@ python -m pip install .
 https://stackoverflow.com/questions/64662085/fix-not-load-dynamic-library-for-tensorflow-gpu
 have to install gpu variant of tensorflow & ensure gpu is detected
 check devices using (either one of the methods)
+
 1. 
 ```from tensorflow.python.client import device_lib
 print(device_lib.list_local_devices())
