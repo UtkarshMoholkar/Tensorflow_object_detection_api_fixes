@@ -29,7 +29,8 @@ from PIL import Image
 from object_detection.utils import dataset_util, label_map_util
 from collections import namedtuple
 
-# Initiate argument parser
+#
+# Initiate argument parser 
 parser = argparse.ArgumentParser(
     description="Sample TensorFlow XML-to-TFRecord converter")
 parser.add_argument("-x",
